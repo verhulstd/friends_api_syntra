@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to our amazing API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to our amazing API</h1>
+    <h2>Friends</h2>
+    <h3>GET</h3>
+    <ul>
+      <li>getall : <a href="/friends">Request a list with all friends</a></li>
+      <li>findOne : <a href="/friends/3">Request a specific friend</a></li>
+      <li>
+        findMany : <a href="/friends/3,4">Request multiple specific friends</a>
+      </li>
+    </ul>
+
+    <h3>DELETE</h3>
+    <p>/friends/:id => example: /friends/15 removes friend with id 15</p>
+
+    <h3>POST</h3>
+    <p>/friends => post request with json in body</p>
+
+    <h3>PUT (UPDATE)</h3>
+    <p>/friends/:id => PUT request with json in body</p>
+  </body>
+</html>
