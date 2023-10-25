@@ -7,7 +7,7 @@
 ## 2. install sql db
 
     - select desired database
-    - open and execute sql script
+    - open and execute sql script from /assets
 
 ## 3. change db credentials in index.js line 10,11,12
 
